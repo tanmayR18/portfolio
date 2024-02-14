@@ -72,7 +72,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className=" h-16 flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+    <div className=" h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
         {/* LINK */}
         <div className=" hidden md:flex gap-4 w-1/3">
             {
@@ -147,17 +147,16 @@ const Navbar = () => {
                     variants={listVariants}
                     initial="closed"
                     animate="opened"
-                    className=" absolute top-0 left-0 w-screen  h-screen bg-black text-white  flex flex-col items-center justify-center gap-8 text-4xl z-40"
+                    className=" absolute top-0 left-0 w-screen  h-screen bg-black text-white  flex flex-col items-center justify-center gap-8 text-4xl z-[100]"
                     >
                         {
                             links.map( link => (
                                 <motion.div 
-                                variants={listItemVariants}
-                                className="" 
-                                key={link.title}>
-                                    <Link href={link.url}>
-                                        {link.title}
-                                    </Link>
+                                className=""
+                                variants={listItemVariants} key={link.title}
+                                onClick={ () => setOpen( prev => !prev )}
+                                >
+                                    <Link href={link.url}> {link.title} </Link>
                                 </motion.div>
                             ))
                         }
