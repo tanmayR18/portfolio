@@ -34,7 +34,7 @@ const AboutPage = () => {
                 <div className=" flex flex-col gap-12 justify-center">
                     {/* BIOGRAPHY IMAGE */}
                     <Image 
-                        src={"https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"} 
+                        src= "/bio.jpg"
                         alt=""
                         width={112}
                         height={112}
@@ -44,14 +44,13 @@ const AboutPage = () => {
                     <h1 className=" font-bold text-2xl">BIOGRAPHY</h1>
                     {/* BIOGRAPHY DESC */}
                     <p className="text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                        harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-                        reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-                        suscipit! Vel doloremque numquam quam nihil.
+                        A TYBSC CS student  who loves to learn new technologies and build innovative projects. 
+                        I have created many projects including two full stack(MERN) major project and 
+                        Currently studying Next.js along with TypeScript and Framer motion to elevate  my skills in web development.
                     </p>
                     {/* BIOGRAPHY QUOTE */}
                     <span className="italic">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Learn -&gt; Build -&gt; Create -&gt; Repeat
                     </span>
                     {/* BIOGRAPHY SCROLL SVG */}
                     <motion.svg

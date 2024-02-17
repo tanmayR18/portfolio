@@ -17,13 +17,10 @@ const Homepage = () => {
        <div className=" lg:w-1/2 flex flex-col gap-8 items-center justify-center ">
             {/* TITLE */}
             <h1 className=" text-4xl md:text-6xl font-bold">
-                Crafting Digital Experience, Designing Tomorrow.
+                Elevating User Experiences, Shaping Tomorrow's Web.
             </h1>
             <p className=" md:text-xl">
-                Welcome to my digital canvas, where innovation and creativity
-                converge. With a keen eye for aesthetics and a mastery of code, my
-                portfolio showcases a diverse collection of projects that reflect my
-                commitment to excellence
+            Step into the realm of innovation where code meets creativity. As a MERN stack developer, I merge cutting-edge technology with captivating design to craft seamless digital experiences. Explore my portfolio and witness the future of web development unfold.
             </p>
             {/* BUTTONS */}
             <div className=" flex gap-4 ">

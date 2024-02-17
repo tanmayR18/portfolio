@@ -98,22 +98,22 @@ const Navbar = () => {
         {/* SOCIAL */}
         {/* Here I have added justify-end */}
         <div className=" hidden md:flex gap-4 w-1/3 justify-end">
-            <Link href="/">
+            <Link target="_blank" className=" hover:scale-150 transition-all duration-300" href="https://github.com/tanmayR18">
                 <Image src="/github.png" alt="" width={24} height={24} />
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
                 <Image src="/dribbble.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="/">
+            </Link> */}
+            <Link target="_blank" className=" hover:scale-150 transition-all duration-300" href="https://www.instagram.com/__tanmay18__/">
                 <Image src="/instagram.png" alt="" width={24} height={24} />
             </Link>
-            <Link href="/">
+            <Link target="_blank" className=" hover:scale-150 transition-all duration-300" href="https://www.facebook.com/tanmay.rane.39904/">
                 <Image src="/facebook.png" alt="" width={24} height={24} />
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
                 <Image src="/pinterest.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="/">
+            </Link> */}
+            <Link target="_blank" className=" hover:scale-150 transition-all duration-300" href="https://www.linkedin.com/in/tanmay-rane-852bba229/">
                 <Image src="/linkedin.png" alt="" width={24} height={24} />
             </Link>
         </div>
