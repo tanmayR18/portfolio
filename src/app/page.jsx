@@ -18,7 +18,7 @@ export default function Home() {
        <div className=" lg:w-1/2 flex flex-col gap-8 items-center justify-center ">
             {/* TITLE */}
             <h1 className=" text-4xl md:text-6xl font-bold">
-                Elevating User Experiences, Shaping Tomorrow's Web.
+                Elevating User Experiences, Shaping Tomorrow&apos;s Web.
             </h1>
             <p className=" md:text-xl">
             Step into the realm of innovation where code meets creativity. As a MERN stack developer, I merge cutting-edge technology with captivating design to craft seamless digital experiences. Explore my portfolio and witness the future of web development unfold.

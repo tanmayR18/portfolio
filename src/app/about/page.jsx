@@ -3,7 +3,6 @@
 import Brain from "../../components/brain";
 import { motion, useInView, useScroll } from "framer-motion"
 import Image from "next/image"
-import Link from "next/link"
 import { useRef } from "react";
 
 
@@ -294,7 +293,7 @@ const AboutPage = () => {
                             </div>
                             {/* JOB DESC */}
                             <div className="p-3 text-sm italic">
-                                Learning Web Development from Udemy and Love Babar's Dot batch.{" "}
+                                Learning Web Development from Udemy and Love Babar&apos;s Dot batch.{" "}
                             </div>
                             {/* JOB DATE */}
                             <div className="p-3 text-red-400 text-sm font-semibold">
