@@ -1,11 +1,12 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link"
 import { motion } from "framer-motion"
 
-const Homepage = () => {
+export default function Home() {
   return (
     <motion.div
-    className=" h-full flex flex-col lg:flex-row px-4 sm:px-0 md:px-12 lg:px-20 xl:px-40 py-4 md:py-0"
+    className=" h-[calc(100vh-4rem)] lg:flex-row w-11/12 lg:w-10/12 mx-auto flex flex-col "
     initial={{y: "-200vh"}}
     animate={{y:"0%", transition:{duration:1}}}
     >
@@ -24,13 +25,11 @@ const Homepage = () => {
             </p>
             {/* BUTTONS */}
             <div className=" flex gap-4 ">
-                <button className=" p-4 rounded-lg ring-1 ring-black bg-black text-white">View My Work</button>
-                <button className=" p-4 rounded-lg ring-1 ring-black">Contact Me</button>
+                <Link href={"/portfolio"} className=" p-4 rounded-lg ring-1 ring-black bg-black text-white">View My Work</Link>
+                <Link href={"/contact"} className=" p-4 rounded-lg ring-1 ring-black">Contact Me</Link>
             </div>
        </div>
 
     </motion.div>
-  )
-};
-
-export default Homepage;
+  );
+}

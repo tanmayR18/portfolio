@@ -72,9 +72,9 @@ const Navbar = () => {
     }
 
   return (
-    <div className=" h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+    <nav className=" w-11/12 h-16 lg:w-10/12 mx-auto flex items-center justify-between text-xl">
         {/* LINK */}
-        <div className=" hidden md:flex gap-4 w-1/3">
+        <div className=" hidden md:flex gap-4 ">
             {
                 links.map( link => (
                     <NavLink link={link} key={link.title} />
@@ -82,7 +82,7 @@ const Navbar = () => {
             }
         </div>
         {/* LOGO */}
-        <div className=" md:hidden lg:flex xl:w-1/3 xl:justify-center">
+        <div className=" md:hidden lg:flex">
             <Link
             href={"/"}
             className=" text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
@@ -96,8 +96,7 @@ const Navbar = () => {
             </Link>
         </div>
         {/* SOCIAL */}
-        {/* Here I have added justify-end */}
-        <div className=" hidden md:flex gap-4 w-1/3 justify-end">
+        <div className=" hidden md:flex gap-4">
             <Link target="_blank" className=" hover:scale-150 transition-all duration-300" href="https://github.com/tanmayR18">
                 <Image src="/github.png" alt="" width={24} height={24} />
             </Link>
@@ -164,7 +163,7 @@ const Navbar = () => {
                 )
             }
         </div>
-    </div>
+    </nav>
   )
 }
 
