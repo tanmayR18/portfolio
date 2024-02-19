@@ -52,12 +52,12 @@ const PorfolioPage = () => {
         animate={{ y: "0%"}}
         transition={{ duration: 1}}
     >
-        <div className="" >
+        <div className=" relative" >
             <div className="w-10/12 mx-auto h-[calc(100vh-4rem)] flex items-center justify-center text-8xl text-center">
-                My Work
+                <p className=" relative -translate-y-[40%]">My Work</p>
             </div>
             <div className="h-[500vh] relative bg-gradient-to-r from-red-300 to-red-300" ref={ref}>
-            <div className=" sticky mx-auto top-0 flex h-screen gap-4 items-center overflow-hidden">
+            <div className={`  sticky mx-auto top-0 flex h-screen gap-4 items-center overflow-hidden`}>
                 <motion.div style={{ x }} className=" flex ">
                     {/* <div className=" h-screen w-screen flex items-center justify-center bg-gradient-to-r  from-purple-300 to-red-300"></div> */}
                     {items.map( item => (
@@ -84,7 +84,7 @@ const PorfolioPage = () => {
         </div>
         {/* HIRE ME */}
         <div className=" w-10/12 mx-auto h-screen flex flex-col items-center justify-center text-center">
-                    <h1 className=" text-8xl">Do you have a project?</h1>
+                    <h1 className=" text-4xl lg:text-8xl">Do you have a project?</h1>
                     <div className=" relative overflow-hidden">
                         <motion.svg
                             animate={{ rotate: 360 }}
