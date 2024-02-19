@@ -179,7 +179,7 @@ const AboutPage = () => {
                             {/* CENTER */}
                             <div className="w-1/6 flex justify-center">
                             {/* LINE */}
-                            <div className="w-1 h-full bg-gray-600 rounded relative">
+                            <div className="w-1 h-full bg-gray-600 relative">
                                 {/* LINE CIRCLE */}
                                 <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
                             </div>
@@ -194,7 +194,7 @@ const AboutPage = () => {
                             {/* CENTER */}
                             <div className="w-1/6 flex justify-center">
                             {/* LINE */}
-                            <div className="w-1 h-full bg-gray-600 rounded relative">
+                            <div className="w-1 h-full bg-gray-600  relative">
                                 {/* LINE CIRCLE */}
                                 <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 top-1/2"></div>
                             </div>
@@ -243,7 +243,7 @@ const AboutPage = () => {
                             {/* CENTER */}
                             <div className="w-1/6 flex justify-center">
                             {/* LINE */}
-                            <div className="w-1 h-full bg-gray-600 rounded relative">
+                            <div className="w-1 h-full bg-gray-600  relative">
                                 {/* LINE CIRCLE */}
                                 <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 top-1/2"></div>
                             </div>
@@ -258,7 +258,7 @@ const AboutPage = () => {
                             {/* CENTER */}
                             <div className="w-1/6 flex justify-center">
                             {/* LINE */}
-                            <div className="w-1 h-full bg-gray-600 rounded relative">
+                            <div className="w-1 h-full bg-gray-600  relative">
                                 {/* LINE CIRCLE */}
                                 <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 top-1/2"></div>
                             </div>
@@ -307,7 +307,7 @@ const AboutPage = () => {
                             {/* CENTER */}
                             <div className="w-1/6 flex justify-center">
                             {/* LINE */}
-                            <div className="w-1 h-1/2 bg-gray-600 rounded relative">
+                            <div className="w-1 h-1/2 bg-gray-600  relative">
                                 {/* LINE CIRCLE */}
                                 <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 bottom-0"></div>
                             </div>

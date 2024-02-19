@@ -10,7 +10,7 @@ export const metadata = {
   export default function RootLayout({ children }) {
     return (
       <html lang="en">
-        <body className="bg-red-100">
+        <body className="">
   
           <TransitionProvide>
               {children}

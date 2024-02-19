@@ -27,7 +27,7 @@ const TansitionProvider = ({children}) => {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {pathName.substring(1) === "" ? "Home" :  pathName.substring(1)}
+          {pathName.substring(1) === "" ? "home" :  pathName.substring(1)}
         </motion.div>
         
         <motion.div
