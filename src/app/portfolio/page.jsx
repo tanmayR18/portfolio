@@ -27,7 +27,7 @@ const items = [
         title: "LiveVista",
         desc: "A Live Streaming website build using Next.js & TypeScript and LiveKit package for failating a seamless streaming of game, blog, podcasts, etc. This website enable the streamer/viewer various functionality such as blocking the viewer, enable chat to followers only, delay chat, etc. ",
         img: "/liveVista.png",
-        link: "https://drive.google.com/file/d/1FM_h2ya6Q656zOp_piKTVWYue5l3xjrF/view?usp=sharings",
+        link: "https://live-vista.vercel.app/",
         },
         {
         id: 4,
