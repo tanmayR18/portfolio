@@ -14,12 +14,12 @@ const ContactPage = () => {
         setError(false)
         setSuccess(false)
 
-        console.log(
-            "Here are the kyse",
-            process.env.NEXT_PUBLIC_SERVICE_ID,
-            process.env.NEXT_PUBLIC_TEMPLATE_ID,
-            process.env.NEXT_PUBLIC_PUBLIC_ID
-        )
+        const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+        if (!form.current.user_email.value || !form.current.user_message.value || form.current.user_message.value.match(validRegex)) {
+            console.log("here I am inside the if statement")
+            return
+        }
 
         emailjs.sendForm(
             process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -71,7 +71,7 @@ const ContactPage = () => {
             ref={form}
             className="h-auto lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-4 md:p-16 lg:p-24"
             >
-            <span>Dear Tammay Rane,</span>
+            <span>Dear Tanmay Rane,</span>
             <textarea
                 rows={6}
                 className="bg-transparent border-b-2 border-b-black outline-none resize-none"
