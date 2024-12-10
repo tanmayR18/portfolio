@@ -71,11 +71,13 @@ const AboutPage = () => {
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
               A driven and results-oriented Frontend Developer with 1 year of
-              professional experience in React and React Native. I&apos;m passionate
-              about building high-quality, user-centric applications and
-              continuously expanding my skillset. Currently exploring Reanimate
-              to enhance my animation capabilities. Along with the expertise in React and React Native
-              I have a good familarity of the backend stuff which leverage the overall understanding of the tech.
+              professional experience in React and React Native. I&apos;m
+              passionate about building high-quality, user-centric applications
+              and continuously expanding my skillset. Currently exploring
+              Reanimate to enhance my animation capabilities. Along with the
+              expertise in React and React Native I have a good familarity of
+              the backend stuff which leverage the overall understanding of the
+              tech.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -188,6 +190,70 @@ const AboutPage = () => {
                 <div className="w-1/3 flex flex-col">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Frontend Developer
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">
+                    Managing Websites and Working on addition and modification of features in app @ archstore
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    Dec 2024 - Present
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    React and React Native
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600  relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 top-1/2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Internship
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">
+                    Adding and modifing features on websites, building dealer side app @ archstore
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    Jun 2024 - Dec 2024
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    React and React Native
+                  </div>
+                </div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 flex flex-col">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                     Next.Js
                   </div>
                   {/* JOB DESC */}
@@ -208,7 +274,7 @@ const AboutPage = () => {
                   {/* LINE */}
                   <div className="w-1 h-full bg-gray-600 relative">
                     {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 top-1/2"></div>
                   </div>
                 </div>
                 {/* RIGHT */}
