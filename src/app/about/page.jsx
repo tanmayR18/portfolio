@@ -194,7 +194,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Managing Websites and Working on addition and modification of features in app @ archstore
+                    Managing Websites and Working on addition and modification of features in app @ archstore.
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -236,7 +236,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Adding and modifing features on websites, building dealer side app @ archstore
+                    Adding and modifing features on websites, building dealer side app @ archstore.
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
