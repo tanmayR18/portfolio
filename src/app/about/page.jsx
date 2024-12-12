@@ -67,7 +67,7 @@ const AboutPage = () => {
               className=" w-28 h-28 rounded-full object-cover"
             />
             {/* BIOGRAPHY TITLE */}
-            <h1 className=" font-bold text-2xl">BIOGRAPHY</h1>
+            <h1 className=" font-bold text-2xl">A Glimpse About Me</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
               A driven and results-oriented Frontend Developer with 1 year of
